@@ -1,4 +1,4 @@
-.encabezado{
+.encabezado {
     display: flex;
     font-size: 20px;
     justify-content: center;
@@ -7,42 +7,45 @@
     color: rgba(255, 255, 255, 0.918);
     border: double 2px white;
     background-image: linear-gradient(225deg, #b6baff 0, #7f94ff 25%, #486ee5 50%, #0149a6 75%, #00296e 100%);
-} 
+}
+
 header img {
     background-color: aqua;
     width: 100px;
     height: 100px ;
     border-radius: 50%;
     justify-content: center;
-} 
-body {background-color:#F2F3F4;
-    
 }
-.descuentos{ 
-    color:#AD281B;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 18px;
-justify-content: center;
-display: flex;
+
+body {
+  background-color:#F2F3F4;
 }
+
+h2 {
+  color:#AD281B;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  display: flex;
+}
+
 .contenedor {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .viaje {
-  width: 30%;  
+  width: 30%;
   height: 30%;
-  display: flex;  
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgba(20, 20, 22, 0.637);
+  color: blue;
   font-weight: bold;
-} 
+}
 .boton {
-
-    border: outset;
+    border:outset;
     font-weight:bold;
     font-family: inherit;
     color: rgba(2, 2, 14, 0.795);
@@ -50,16 +53,26 @@ display: flex;
     padding: 15px;
     width: 200px;
     margin: 30px;
-    justify-content: center;
     background-color: beige;
-  
   }
-  
+
   .boton:hover {
-    background-color: yellow; 
+    background-color: yellow;
     color: Green;
     cursor: pointer;
     box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border: inset;
+    border:inset;
     transition: ease-out 0.4s;
   }
+
+  footer {
+    background-image: linear-gradient(225deg, #b6baff 0, #7f94ff 25%, #486ee5 50%, #0149a6 75%, #00296e 100%);
+    color: #F2F3F4;
+    text-align: center;
+    height: 80px;
+  }
+
+  .footer-links {
+    padding: 30px;
+    color: #F2F3F4;
+}
