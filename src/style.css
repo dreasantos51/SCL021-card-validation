@@ -120,7 +120,10 @@ footer {
   border: inset;
   transition: ease-out 0.4s;
 }
-
+#error {
+color:red;
+align-items: baseline;
+}
 
 
 
