@@ -32,6 +32,7 @@ error.innerHTML=mensajesError.join(", ");
 });
 
 
+
 //1.Recuperar los numeros desde html
 //2.Asegurar que ingresaron solo numeros y que sean 16
 //3.Ejecutar validacion
