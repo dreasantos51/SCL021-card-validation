@@ -1,35 +1,37 @@
 
-var name = document.getElementById("tarjetName");
-var tarjet = document.getElementById("tarjetNumber");
-var date = document.getElementById("date");
-var cvv = document.getElementById("cvv");
-var error = document.getElementById ("error");
+// var name = document.getElementById("tarjetName");
+// var tarjet = document.getElementById("tarjetNumber");
+// var date = document.getElementById("date");
+// var cvv = document.getElementById("cvv");
+// var error = document.getElementById ("error");
 
 var form = document.getElementById ("form");
 form.addEventListener("submit",function(evt){
-  evt.preventDefault();
+  evt.preventDefault() });  
   console.log ("Enviando formulario...")
+ 
 
-  var mensajesError= [];
+ //document.getElementById (tarjetNumber).value.addEventListener(input,event)
+//   var mensajesError= [];
 
-if(name.value === null || name.value === ""){
-  mensajesError.push("Ingresa tu nombre");
-}
+//if(name.value === null || name.value === ""){
+   //mensajesError.push("Ingresa tu nombre");
+//}
 
-if(tarjet.value === null || tarjet.value === ""){
-  mensajesError.push("Ingresa los numeros de la tarjeta");
-}
+// if(tarjet.value === null || tarjet.value === ""){
+//   mensajesError.push("Ingresa los numeros de la tarjeta");
+// }
 
-if(date.value === null || date.value === ""){
-  mensajesError.push("Ingresa tu fecha");
-}
+// if(date.value === null || date.value === ""){
+//   mensajesError.push("Ingresa tu fecha");
+// }
 
-if(cvv.value === null || cvv.value === ""){
-  mensajesError.push("Ingresa tu cvv");
-}
-error.innerHTML=mensajesError.join(", ");
+// if(cvv.value === null || cvv.value === ""){
+//   mensajesError.push("Ingresa tu cvv");
+// }
+// error.innerHTML=mensajesError.join(", ");
 
-});
+// });
 
 
 
@@ -47,4 +49,4 @@ error.innerHTML=mensajesError.join(", ");
 //12.Desarrollar Masiky
 
 
-import validator from './validator.js';
+import validator from './validator.js' 
