@@ -20,7 +20,6 @@ const maskify = (cardNumber) => {
   '#'.repeat(Math.max(0, cardNumberString.length - 4))
  + cardNumberString.substr(-4);
  return maskifyNumber
-
 };
 let numberToValidate=""
 cardNumberInput.addEventListener("input", (evt) => {
@@ -43,7 +42,6 @@ if (button !== null) {
   button.addEventListener("click", (event) => {
     event.preventDefault();
     console.log("Enviando formulario...");
-
     validator.isValid(numberToValidate);
   });
 }
