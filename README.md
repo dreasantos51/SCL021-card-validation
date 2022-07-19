@@ -1,10 +1,10 @@
-<h1># Primero
+# Primero
 BIENVENIDO AL REPOSITORIO DEL PROYECTO MICHELLE Y ANDREA
 card validation Aerolineas Cifuentes  🥰
 
 Partimos con la idea de  hacer una pagina de viajes, en donde el cliente elija su destino y al elegir cualquiera de ellos lo lleve a comprar y el usuario deba ingresar una tarjeta de credito valida para que sea aprobada su compra.
 Hicimos un prototipo a papel y lapiz de como queriamos que se viera la pagina:
-<h1>
+
 <img src="./img/empezamos.jpg" alt="prototipo">
 
 Despues de eso empezamos a buscar imagenes que dera a nuestra pagina confianza al usuario
