@@ -14,6 +14,22 @@ if (cardNumberInput !== null) {
   });
 }
 
+const maskify = (cardNumber) => {
+  const cardNumberString= cardNumber.toString();
+  const maskifyNumber=
+  '#'.repeat(Math.max(0, cardNumberString.length - 4))
+ + cardNumberString.substr(-4);
+ return maskifyNumber
+ 
+};
+cardNumberInput.addEventListener("input", (evt) => {
+  cardNumber = evt.target.value=maskify(cardNumber);
+});
+
+//const numberMask(numberToMask) = maskify 4556364607935616
+
+
+
 if (button !== null) {
   button.addEventListener("click", (event) => {
     event.preventDefault();
