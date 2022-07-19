@@ -22,8 +22,18 @@ const maskify = (cardNumber) => {
  return maskifyNumber
  
 };
+let numberToValidate=""
 cardNumberInput.addEventListener("input", (evt) => {
-  cardNumber = evt.target.value=maskify(cardNumber);
+  if (evt.data==null) {
+    if (numberToValidate != "") {
+      numberToValidate= numberToValidate.substring(0,numberToValidate.length-1)
+      console.log(numberToValidate)
+    }
+  } else {
+  numberToValidate= numberToValidate+evt.data
+   evt.target.value=maskify(cardNumber);
+   console.log(evt)
+  }
 });
 
 //const numberMask(numberToMask) = maskify 4556364607935616
@@ -34,8 +44,8 @@ if (button !== null) {
   button.addEventListener("click", (event) => {
     event.preventDefault();
     console.log("Enviando formulario...");
-    console.log(cardNumber);
-    validator.isValid(cardNumber);
+  
+    validator.isValid(numberToValidate);
   });
 }
 
