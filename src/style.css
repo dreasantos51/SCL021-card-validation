@@ -4,7 +4,7 @@
   justify-content: center;
   margin-top: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgba(255, 255, 255, 0.918);
+  color: rgba(198, 148, 148, 0.918);
   border: double 2px white;
   background-image: linear-gradient(225deg, #b6baff 0, #7f94ff 25%, #486ee5 50%, #0149a6 75%, #00296e 100%);
 }
@@ -80,7 +80,7 @@ footer {
 .fecha1 {
   background-image: radial-gradient(circle at 4.55% -4.17%, #f1efcd 0, #abadb7 50%, #5b71a1 100%);
   justify-content: center;
-  border: groove;  
+  border: groove;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   border-color: #F2F3F4;
   color: #343e49;
@@ -90,24 +90,24 @@ footer {
   width: 100%;
   display: flex;
   justify-content:center;
-  
+
 
 }
 
 .hijoFecha {
-  display: flex;    
+  display: flex;
   flex-direction: column;
   width: 30%;
 
  }
-  
+
  #botonPagar {
   border: outset;
   font-weight: bold;
   font-family: inherit;
   color: rgba(2, 2, 14, 0.795);
   border-radius: 10px 10px 10px 10px;
-  
+
   background-color: beige;
 
 }
