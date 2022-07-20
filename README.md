@@ -33,4 +33,4 @@ TARJETA INVALIDA
 
 TARJETA VALIDA
 
-![página principal](src/img/readme5.jpg)
+
