@@ -31,7 +31,7 @@ const validator = {
         return numero;
       }
     });
-    console.log(newArray);
+
     //inicializo en 0 una variable sumaDeNumeros
     let sumaDeNumeros = 0;
     //Uso un ciclo for para guardar en sumaDeNumeros la suma de todos los numeros de mi array
@@ -42,7 +42,7 @@ const validator = {
 
 
     //si la suma es multiplo de 10 la tarjeta es valida, es true
-    if (sumaDeNumeros % 10 === 0 ) {
+    if (sumaDeNumeros % 10 === 0) {
       alert("Tarjeta válida, pago realizado con éxito!");
       //y si no es valida:
     } else {
