@@ -26,12 +26,12 @@ cardNumberInput.addEventListener("input", (evt) => {
   if (evt.data==null) {
     if (numberToValidate != "") {
       numberToValidate= numberToValidate.substring(0,numberToValidate.length-1)
-      console.log(numberToValidate)
+      //console.log(numberToValidate)
     }
   } else {
   numberToValidate= numberToValidate+evt.data
    evt.target.value=maskify(cardNumber);
-   console.log(evt)
+   //console.log(evt)
   }
 });
 
@@ -41,7 +41,7 @@ cardNumberInput.addEventListener("input", (evt) => {
 if (button !== null) {
   button.addEventListener("click", (event) => {
     event.preventDefault();
-    console.log("Enviando formulario...");
+    //console.log("Enviando formulario...");
     validator.isValid(numberToValidate);
   });
 }
